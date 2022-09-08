@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "logtodiscord",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/johnmelodyme/LogToDiscord.git",
+      "state" : {
+        "revision" : "3ac87b45036e3be70c970051a919757494092bcc",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 2
+}
