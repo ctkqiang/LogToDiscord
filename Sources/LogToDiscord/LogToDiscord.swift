@@ -51,11 +51,10 @@ public struct LogToDiscord
             url: URL(string: url)!,
             timeoutInterval: Double.infinity
         )
-        
-        let content = getFormat(message: message, level: level)
+
         
         /** Set [HTTPBody] */
-        let parameters = "username=\(app)&content=\(String(describing: {content}))"
+        let parameters = "username=\(app)&content=\(String(describing: getFormat(message: message, level: level)))"
     
         /** Set [PostData] */
         let postData = parameters.data(using: .utf8)
