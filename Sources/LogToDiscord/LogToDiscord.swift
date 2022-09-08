@@ -68,8 +68,6 @@ public struct LogToDiscord
         )
         request.httpBody = postData
 
-        
-
         /** Delay function [Delay] */
         do
         {
