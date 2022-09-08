@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/johnmelodyme/LogToDiscord.git",
       "state" : {
-        "revision" : "034e54b9eb50410cfab3e272e94770ff8a51c215",
-        "version" : "1.0.3"
+        "revision" : "10c15454d5e6a0c0acfe2686525392680b63a19c",
+        "version" : "1.0.4"
       }
     }
   ],
