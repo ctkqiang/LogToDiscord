@@ -27,16 +27,16 @@ public struct LogToDiscord
         switch(level)
         {
             case Level.Info:
-                return "```[info]| \(message)```"
+                return "```[* Info] \n => \(message)```"
                 
             case Level.Error:
-                return "```[error]| \(message)```"
+                return "```[* Error] \n \(message)```"
             
             case Level.Debug:
-                return "```[debug]| \(message)```"
+                return "```[* Debug] \n \(message)```"
             
             case Level.Warn:
-                return "```[warn]| \(message)```"
+                return "```[* Warning] \n \(message)```"
         }
     }
     
