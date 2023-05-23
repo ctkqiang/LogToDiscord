@@ -56,7 +56,7 @@ public enum Level
 }
 ```
 
-For demonstration please do refer to [example](https://github.com/johnmelodyme/LogToDiscord/blob/main/example/Sources/example/main.swift)
+有关演示，请参阅[示例](https://github.com/johnmelodyme/LogToDiscord/blob/main/example/Sources/example/main.swift)
 
 ### 看起来怎么样:
 
