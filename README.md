@@ -1,44 +1,38 @@
 # LogToDiscord
 
-This package is mainly to send message to specific discord channel easily. Whether is from
-server application, IOS application or MACOS Application.
+这个包主要是为了方便地将消息发送到特定的Discord频道。是否来自服务器应用程序、IOS应用程序或MacOS应用程序。
 
 ### License
 
 ```
-MIT License
-
-Copyright (c) 2022 John Melody Me
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+麻省理工学院许可证
+版权所有（c）2023 钟智强
+特此免费许可任何人获得副本
+本软件和相关文档文件（“软件”），以处理
+在软件中不受限制，包括但不限于权利
+使用、复制、修改、合并、发布、分发、分许可和/或出售
+软件的副本，并允许软件的使用者
+根据以下条件提供：
+上述版权声明和本许可声明应包含在
+软件的副本或实质部分。
+该软件是“按原样”提供的，没有任何形式的担保，明示或
+隐含的，包括但不限于适销性保证，
+适用于特定目的和不侵权。在任何情况下
+作者或版权持有人应对任何索赔、损害或其他
+因以下原因引起的责任，无论是在合同诉讼、侵权诉讼还是其他诉讼中，
+因软件或在
+软件。
 
 ```
 
-### Installation
-
-Insert the following lines into `Package.swift`
+### 安装
+将以下行插入`Package.swift`
 
 ```
 .package(url: "https://github.com/johnmelodyme/LogToDiscord.git", from: "1.0.5"),
 ```
 
-### Usage:
+### 用法:
 
 ```swift
 import LogToDiscord
@@ -49,10 +43,8 @@ try LogToDiscord(
     ).send(message: "yourMessage", level: Level.Info, delay: 10)
 ```
 
-### Explanation:
-
-The parameter `level` are enumeration of various levels of the message being sent to discord
-channel. The available level are as follows:
+### 说明：
+参数“level”是发送给discord的消息的各个级别的枚举频道可用级别如下：
 
 ```swift
 public enum Level
@@ -66,7 +58,7 @@ public enum Level
 
 For demonstration please do refer to [example](https://github.com/johnmelodyme/LogToDiscord/blob/main/example/Sources/example/main.swift)
 
-### How it looks:
+### 看起来怎么样:
 
 <img src="./assets/xcode.png" width="500" height="300">
 </br>
@@ -75,10 +67,6 @@ For demonstration please do refer to [example](https://github.com/johnmelodyme/L
 
 </br>
 
-### Contribution:
-
-I Would ❤️ to see any contributions. If you do liked my work, show some ❤️ by ⭐ repo.
-Also you can appreciate me by buy me a coffee:
-</br>
-</br>
-<a href="https://www.buymeacoffee.com/johnmelodymel" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee"  width="300" height="80" ></a>
+#### 如果你真的喜欢我的作品,
+<br />
+<img src="https://raw.githubusercontent.com/johnmelodyme/current_location/johnmelodyme-alipayqr/IMG_4026.JPG"  style="height: 500px !important;width: 300px !important;" >
