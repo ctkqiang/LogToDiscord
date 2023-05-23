@@ -38,9 +38,9 @@
 import LogToDiscord
 
 try LogToDiscord(
-        appName: "testing",
-        webhookUrl: "webhookUrl"
-    ).send(message: "yourMessage", level: Level.Info, delay: 10)
+    appName: "项目名称",
+    webhookUrl: "webhookUrl"
+).send(message: "你所要写的信息", level: Level.Info, delay: 10)
 ```
 
 ### 说明：
